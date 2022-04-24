@@ -4,7 +4,7 @@ sudo apt -y install python3-pip
 python3 -m pip install -U pip
 export PATH="$HOME/.local/bin:$PATH"
 pip3 install --upgrade setuptools
-git clone https://github.com/anirbanchowdhury/testTBot1/
-cd testTBot1
+git clone https://github.com/LuisCioffi/Telegram_chatbots
+cd Telegram_chatbots
 sudo apt install python3-pip
 pip3 install -r requirements.txt

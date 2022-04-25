@@ -8,3 +8,7 @@ git clone https://github.com/LuisCioffi/Telegram_chatbots
 cd Telegram_chatbots
 sudo apt install python3-pip
 pip3 install -r requirements.txt
+
+python3 Telegram_moviezam_v1.py
+
+

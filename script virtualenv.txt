@@ -1,0 +1,76 @@
+--- installare vitrual enviroment
+
+python -m pip install virtualenv
+python -m virtualenv venv
+
+--- attivare virtual environment
+
+source venv/Scripts/activate
+source twilio-chatbot-env/Scripts/activate
+
+\twilio-chatbot-env\Scripts
+--- creare un kernel su jupyter
+ipython kernel install --user --name=moviezam1
+ipython kernel install --user --name=wapp
+ipython kernel install --user --name=telegram_chatbots
+-- mandare il jupyter
+pip3 install jupyter-lab
+jupyter notebook
+jupyter-lab
+pip3 install jupyter-lab
+
+sudo apt-get install python3.9-tk
+
+
+--- freze dei pacchetti installati
+
+pip freeze > requirements.txt
+
+cmd /k source C:\Users/cioffil/Desktop/DS/Github/Moviezam/Moviezam/venv/Scripts/activate & jupyter notebook
+
+
+
+python3 -m pip install --user pyautogui
+
+https://www.twilio.com/blog/serverless-whatsapp-chatbot-python-google-cloud-functions-twilio
+--- git clone
+--- git fetch
+--- git status
+--- git pull
+
+git clone https://github.com/AndreaSeveso/BigDataLab.git
+
+
+
+
+
+Per clonare questa repository, scrivere: git clone https://github.com/AndreaSeveso/BigDataLab.git
+
+
+## Setup venv
+
+pip install virtualenv
+
+python -m virtualenv venv
+
+source venv/Scripts/activate
+
+pip install -r requirements.txt
+
+## Adding new packages to requirements.txt
+
+Install any package after activating venv
+
+pip freeze > requirements.txt
+
+## Add venv to jupyter
+
+ipython kernel install --user --name=biglab
+
+## Remove venv
+
+jupyter kernelspec uninstall biglab
+
+## List jupyter venvs
+
+jupyter kernelspec list

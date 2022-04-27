@@ -9,13 +9,14 @@ bleach==4.1.0
 cachetools==4.2.2
 certifi==2021.10.8
 cffi==1.15.0
-click==8.1.2
+click==8.0.4
 colorama==0.4.4
 Cython==0.29.23
-debugpy==1.6.0
+debugpy==1.5.1
 decorator==5.1.1
 defusedxml==0.7.1
 emoji==1.7.0
+
 entrypoints==0.4
 et-xmlfile==1.1.0
 executing==0.8.3

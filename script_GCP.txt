@@ -1,3 +1,8 @@
+creare la vm
+gcloud compute instances create test-bot3 \--machine-type f1-micro \--zone europe-west1-b \--image-family ubuntu-1804-lts \--image-project ubuntu-os-cloud
+
+da fare girare connettendo in ssh da gcp
+
 sudo apt update
 sudo apt-get -y install python-dev build-essential
 sudo apt -y install python3-pip
@@ -9,7 +14,16 @@ cd Telegram_chatbots
 sudo apt install python3-pip
 pip3 install -r requirements.txt
 chmod +x Telegram_moviezam_v1.py
-nohup python3 Telegram_moviezam_v1.py
+
+aggiungere manualmente i 3 file troppo pesanti per stare su github
+
+nohup python3 Telegram_moviezam_v1.py &
+
+
+- salvare i .vec e inviarli ad anna
+
+- domanda su propensione a film popolari
+- p erhcè moviezam ? 1) confronta diversi modelli di embedding 2) utilizza più tipi di descrizione dello stesso film  3) utilizza valutazione sia estrinseca che intrinseca
 
 
 

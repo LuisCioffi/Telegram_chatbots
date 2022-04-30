@@ -51,6 +51,10 @@ Per clonare questa repository, scrivere: git clone https://github.com/AndreaSeve
 
 pip install virtualenv
 
+vectobest anna giabelli
+
+scaricare i modelli grid search su drive
+
 python -m virtualenv venv
 
 source venv/Scripts/activate

@@ -1,6 +1,9 @@
 creare la vm
 gcloud compute instances create test-bot3 \--machine-type f1-micro \--zone europe-west1-b \--image-family ubuntu-1804-lts \--image-project ubuntu-os-cloud
 
+
+gcloud compute instances create test-bot4\--machine-type e2-small \--zone europe-west1-b \--image-family ubuntu-1804-lts \--image-project ubuntu-os-cloud
+
 da fare girare connettendo in ssh da gcp
 
 sudo apt update
@@ -12,12 +15,21 @@ pip3 install --upgrade setuptools
 git clone https://github.com/LuisCioffi/Telegram_chatbots
 cd Telegram_chatbots
 sudo apt install python3-pip
-pip3 install -r requirements.txt
+pip3 install -r requirements_new.txt
 chmod +x Telegram_moviezam_v1.py
 
 aggiungere manualmente i 3 file troppo pesanti per stare su github
 
-nohup python3 Telegram_moviezam_v1.py &
+sudo nohup python3 Telegram_moviezam_v1.py &
+
+TOKEN='5389959641:AAH6ZT1ftyvChb63lYnJuqKTJJ_9C53kURE'
+
+sudo apt update
+sudo apt-get -y install python-dev build-essential
+sudo apt -y install python3-pippython3 -m pip install -U pipexport PATH="$HOME/.local/bin:$PATH"pip3 install --upgrade setuptoolsgit clone https://github.com/anirbanchowdhury/testTBot1/cd testTBot1sudo apt install python3-pippip3 install -r requirements.txt
+
+
+
 
 
 - salvare i .vec e inviarli ad anna
